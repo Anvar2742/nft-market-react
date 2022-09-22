@@ -32,7 +32,17 @@ const Navbar = ({switchTheme}) => {
                 </nav>
                 <div className='header--btns'>
                     <button className='theme-switch' onClick={switchTheme}>
-                        <img src={sun} alt="" />
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48">
+                            <linearGradient id="PtY0UrX1qJDQb5CcMCRpOa" x1="6.221" x2="37.408" y1="5.221" y2="36.408" gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stopColor="#fed100"/><stop offset="1" stopColor="#e36001"/>
+                            </linearGradient>
+                            <linearGradient id="PtY0UrX1qJDQb5CcMCRpOb" x1="29.373" x2="37.64" y1="20.668" y2="39.146" gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stopColor="#fcfcfc"/>
+                                <stop offset="1" stopColor="#c3c9cd"/>
+                            </linearGradient>
+                            <path className='sun' fill="url(#PtY0UrX1qJDQb5CcMCRpOa)"/>
+                            <path className='cloud' fill="url(#PtY0UrX1qJDQb5CcMCRpOb)"/>
+                        </svg>
                     </button>
                     <button className='btn btn-border'>Contact</button>
                     <button className='btn btn-filled'>My account</button>
