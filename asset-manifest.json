@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/nft-market-react/static/css/main.5a2c0e11.css",
+    "main.js": "/nft-market-react/static/js/main.28012e39.js",
+    "static/media/Inter-Regular.svg": "/nft-market-react/static/media/Inter-Regular.d6b72747751776585468.svg",
+    "static/media/Sora-Regular.ttf": "/nft-market-react/static/media/Sora-Regular.295e06154db267906492.ttf",
+    "static/media/Inter-Regular.ttf": "/nft-market-react/static/media/Inter-Regular.7b2d38ebd13cac0ca9b3.ttf",
+    "static/media/Sora-SemiBold.svg": "/nft-market-react/static/media/Sora-SemiBold.bf9c37e6a58079dec1c8.svg",
+    "static/media/Sora-Bold.svg": "/nft-market-react/static/media/Sora-Bold.a4acaed707b1f15719f9.svg",
+    "static/media/Sora-Regular.svg": "/nft-market-react/static/media/Sora-Regular.ceb3072f065a6be64ddc.svg",
+    "static/media/Sora-Regular.woff": "/nft-market-react/static/media/Sora-Regular.b7dc676bab820bb49d06.woff",
+    "static/media/Inter-Regular.woff": "/nft-market-react/static/media/Inter-Regular.2e585df28490c04dc14b.woff",
+    "static/media/Sora-Bold.ttf": "/nft-market-react/static/media/Sora-Bold.bd337e14dcf506ec4bdd.ttf",
+    "static/media/Sora-Bold.eot": "/nft-market-react/static/media/Sora-Bold.24eaf21718c671b00316.eot",
+    "static/media/Sora-SemiBold.ttf": "/nft-market-react/static/media/Sora-SemiBold.b639463bbd3a7e7c31f2.ttf",
+    "static/media/Sora-Bold.woff": "/nft-market-react/static/media/Sora-Bold.0726fe8513a70497cd1b.woff",
+    "static/media/Sora-SemiBold.woff": "/nft-market-react/static/media/Sora-SemiBold.a1977219d9936768474d.woff",
+    "static/media/Sora-Bold.woff2": "/nft-market-react/static/media/Sora-Bold.05b134bc7542754fab89.woff2",
+    "static/media/sun.svg": "/nft-market-react/static/media/sun.99c5d2f91212d11207c7768155a3718e.svg",
+    "index.html": "/nft-market-react/index.html",
+    "main.5a2c0e11.css.map": "/nft-market-react/static/css/main.5a2c0e11.css.map",
+    "main.28012e39.js.map": "/nft-market-react/static/js/main.28012e39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a2c0e11.css",
+    "static/js/main.28012e39.js"
+  ]
+}
