@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nft-market-react/static/css/main.5a2c0e11.css",
-    "main.js": "/nft-market-react/static/js/main.28012e39.js",
+    "main.js": "/nft-market-react/static/js/main.29552a28.js",
     "static/media/Inter-Regular.svg": "/nft-market-react/static/media/Inter-Regular.d6b72747751776585468.svg",
     "static/media/Sora-Regular.ttf": "/nft-market-react/static/media/Sora-Regular.295e06154db267906492.ttf",
     "static/media/Inter-Regular.ttf": "/nft-market-react/static/media/Inter-Regular.7b2d38ebd13cac0ca9b3.ttf",
@@ -19,10 +19,10 @@
     "static/media/sun.svg": "/nft-market-react/static/media/sun.99c5d2f91212d11207c7768155a3718e.svg",
     "index.html": "/nft-market-react/index.html",
     "main.5a2c0e11.css.map": "/nft-market-react/static/css/main.5a2c0e11.css.map",
-    "main.28012e39.js.map": "/nft-market-react/static/js/main.28012e39.js.map"
+    "main.29552a28.js.map": "/nft-market-react/static/js/main.29552a28.js.map"
   },
   "entrypoints": [
     "static/css/main.5a2c0e11.css",
-    "static/js/main.28012e39.js"
+    "static/js/main.29552a28.js"
   ]
 }
