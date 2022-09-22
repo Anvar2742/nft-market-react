@@ -63,7 +63,7 @@ const ExtraInfo = () => {
                 </div>
 
                 <div className="extrainfo--started flex justify-between align-center">
-                    <img src="./../images/pleat-gray.png" alt="" className='pleat-gray'/>
+                    <img src="./images/pleat-gray.png" alt="" className='pleat-gray'/>
                     <div className="extrainfo--started-column">
                         <h2 className='big-h2'>Cursus vitae sollicitudin donec nascetur. Join now</h2>
                         <p className='gray-text'>Donec volutpat bibendum justo, odio aenean congue est porttitor ut. Mauris vestibulum eros libero amet tincidunt.</p>
@@ -74,22 +74,22 @@ const ExtraInfo = () => {
                     </div>
                     <div className="extrainfo--started-column">
                         {/* <div className="extrainfo--avatars">
-                            <img src="./../images/avatars/Ellipse.png" alt="" />
+                            <img src="./images/avatars/Ellipse.png" alt="" />
                             <div className="avatar--info">
                                 <span className="avatar--info-username">
                                     @brook_sim
                                 </span>
                                 <span className="avatar--info-items">
-                                    <img src="./../images/icons/frame.svg" alt="" />
+                                    <img src="./images/icons/frame.svg" alt="" />
                                     Items 206
                                 </span>
                                 <span className="avatar--info-collection">
-                                    <img src="./../images/icons/cubes.svg" alt="" />
+                                    <img src="./images/icons/cubes.svg" alt="" />
                                     Collection 12
                                 </span>
                             </div>
                         </div> */}
-                        <img src="./../images/avatars.png" alt="" />
+                        <img src="./images/avatars.png" alt="" />
                     </div>
                 </div>
             </div>

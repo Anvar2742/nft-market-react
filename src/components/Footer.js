@@ -43,11 +43,11 @@ const Footer = () => {
                         <button className="btn btn-filled">My account</button>
                         <div className="footer--menu-social menu">
                             <ul>
-                                <li><a href="#"><img src="./../images/icons/face-icon.svg" alt="" /></a></li>
-                                <li><a href="#"><img src="./../images/icons/linked-icon.svg" alt="" /></a></li>
-                                <li><a href="#"><img src="./../images/icons/github-icon.svg" alt="" /></a></li>
-                                <li><a href="#"><img src="./../images/icons/twitter-icon.svg" alt="" /></a></li>
-                                <li><a href="#"><img src="./../images/icons/insta-icon.svg" alt="" /></a></li>
+                                <li><a href="#"><img src="./images/icons/face-icon.svg" alt="" /></a></li>
+                                <li><a href="#"><img src="./images/icons/linked-icon.svg" alt="" /></a></li>
+                                <li><a href="#"><img src="./images/icons/github-icon.svg" alt="" /></a></li>
+                                <li><a href="#"><img src="./images/icons/twitter-icon.svg" alt="" /></a></li>
+                                <li><a href="#"><img src="./images/icons/insta-icon.svg" alt="" /></a></li>
                             </ul>
                         </div>
                     </div>

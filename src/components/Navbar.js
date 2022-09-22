@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import sun from './../assets/images/icons/sun.svg'
-// import logo from './../assets/images/icons/logo.svg'
+// import logo from './assets/images/icons/logo.svg'
 
 const Navbar = ({switchTheme}) => {
     return (
