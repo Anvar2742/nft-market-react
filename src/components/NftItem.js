@@ -3,8 +3,10 @@
 const NftItem = ({nft, switchFav}) => {
     return (
         <a href="#" className="nft--item" key={nft.id}>
-            <img src={nft.url} alt="" />
-            <img src={nft.url} alt="" className='blurred'/>
+            <div className="nft--item-img">
+                <img src={nft.url} alt="" />
+                <img src={nft.url} alt="" className='blurred'/>
+            </div>
             <div className="offers--slide-info flex align-center justify-between">
                 <h3>{nft.name}</h3>
             </div>

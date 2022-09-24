@@ -3,7 +3,7 @@
         {
             "id": 0,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-0.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-0.png",
             "price": 3.19,
             "isLiked": false,
             "cat": "photography"
@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-1.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-1.png",
             "price": 2.19,
             "isLiked": false,
             "cat": "music"
@@ -19,7 +19,7 @@
         {
             "id": 2,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-2.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-2.png",
             "price": 5.19,
             "isLiked": false,
             "cat": "games"
@@ -27,7 +27,7 @@
         {
             "id": 3,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-3.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-3.png",
             "price": 1.2,
             "isLiked": false,
             "cat": "architecture"
@@ -35,7 +35,7 @@
         {
             "id": 4,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-4.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-4.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "photography"
@@ -43,7 +43,7 @@
         {
             "id": 5,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-5.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-5.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "music"
@@ -51,7 +51,7 @@
         {
             "id": 6,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-6.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-6.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "games"
@@ -59,7 +59,7 @@
         {
             "id": 7,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-7.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-7.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "games"
@@ -67,7 +67,7 @@
         {
             "id": 8,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-8.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-8.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "photography"
@@ -75,7 +75,7 @@
         {
             "id": 9,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-9.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-9.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "architecture"
@@ -83,7 +83,7 @@
         {
             "id": 10,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-10.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-10.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "music"
@@ -91,7 +91,7 @@
         {
             "id": 11,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-11.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-11.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "photography"
@@ -99,7 +99,7 @@
         {
             "id": 12,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-12.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-12.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "architecture"
@@ -107,7 +107,7 @@
         {
             "id": 13,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-6.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-6.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "architecture"
@@ -115,7 +115,7 @@
         {
             "id": 14,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-2.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-2.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "architecture"
@@ -123,7 +123,7 @@
         {
             "id": 15,
             "name": "Vulputate felis purus viverra morbi facilisi eget",
-            "url": "./images/nfts/Image-8.png",
+            "url": "https://anvar2742.github.io/nft-market-react/images/nfts/Image-8.png",
             "price": 5.1,
             "isLiked": false,
             "cat": "architecture"

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import nfts from './data/nfts.json'
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -44,8 +44,12 @@ export const App = () => {
 		setPopularItemCount(prevPopularCount => prevPopularCount + prevPopularCount)
 	}
 
+	useEffect(() => {
+		theme ? document.body.classList.add('dark-theme') : document.body.classList.remove('dark-theme')
+	}, [theme])
+
 	return (
-		<div className={theme ? 'dark-theme' : ""}>
+		<>
 			<Navbar 
 				switchTheme={switchTheme}
 			/>
@@ -71,6 +75,6 @@ export const App = () => {
 				nftItems={nftItems}
 			/>
 			<Footer />
-		</div>
+		</>
 	);
 }

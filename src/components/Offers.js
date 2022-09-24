@@ -34,8 +34,15 @@ const Offers = ({switchFav, nftItems}) => {
                     <button className='btn btn-border'>Show me more</button>
                 </div>
                 <div className="offers--item dark">
-                    <img src="./images/pleat.png" alt="" className='pleat' />
-                    <img src="./images/started.png" alt="" className='hand' />
+                    <svg width="185" height="21" viewBox="0 0 185 21" fill="none" xmlns="http://www.w3.org/2000/svg" className='pleat'>
+                        <path d="M0 10C0 4.47715 4.47715 0 10 0H156.429C161.902 0 167.136 2.2433 170.911 6.2069L185 21H0V10Z" fill="#1C1D29"/>
+                        <g opacity="0.5">
+                        <circle cx="19" cy="16.5" r="4.5" fill="#7780A1"/>
+                        <circle cx="36" cy="16.5" r="4.5" fill="#7780A1"/>
+                        <circle cx="53" cy="16.5" r="4.5" fill="#7780A1"/>
+                        </g>
+                    </svg>
+                    <img src="https://anvar2742.github.io/nft-market-react/images/started.png" alt="" className='hand' />
                     <div className="offers--item-info">
                         <h2>Get started creating & selling your NFTs</h2>
                         <p>Nunc gravida faucibus netus feugiat tellus, viverra massa feugiat. Mi est sit.</p>

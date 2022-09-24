@@ -63,7 +63,12 @@ const ExtraInfo = () => {
                 </div>
 
                 <div className="extrainfo--started flex justify-between align-center">
-                    <img src="./images/pleat-gray.png" alt="" className='pleat-gray'/>
+                    <svg width="370" height="42" viewBox="0 0 370 42" fill="none" xmlns="http://www.w3.org/2000/svg" className='pleat-gray'>
+                        <path d="M0 20C0 8.9543 8.95431 0 20 0H321.429C326.902 0 332.136 2.2433 335.911 6.2069L370 42H0V20Z" fill="#1B1C28"/>
+                        <circle cx="33.5" cy="25.5" r="4.5" fill="#7780A1"/>
+                        <circle cx="50.5" cy="25.5" r="4.5" fill="#7780A1"/>
+                        <circle cx="67.5" cy="25.5" r="4.5" fill="#7780A1"/>
+                    </svg>
                     <div className="extrainfo--started-column">
                         <h2 className='big-h2'>Cursus vitae sollicitudin donec nascetur. Join now</h2>
                         <p className='gray-text'>Donec volutpat bibendum justo, odio aenean congue est porttitor ut. Mauris vestibulum eros libero amet tincidunt.</p>
@@ -74,22 +79,23 @@ const ExtraInfo = () => {
                     </div>
                     <div className="extrainfo--started-column">
                         {/* <div className="extrainfo--avatars">
-                            <img src="./images/avatars/Ellipse.png" alt="" />
+                            <img src="https://anvar2742.github.io/nft-market-react/images/avatars/Ellipse.png" alt="" />
                             <div className="avatar--info">
                                 <span className="avatar--info-username">
                                     @brook_sim
                                 </span>
                                 <span className="avatar--info-items">
-                                    <img src="./images/icons/frame.svg" alt="" />
+                                    <img src="https://anvar2742.github.io/nft-market-react/images/icons/frame.svg" alt="" />
                                     Items 206
                                 </span>
                                 <span className="avatar--info-collection">
-                                    <img src="./images/icons/cubes.svg" alt="" />
+                                    <img src="https://anvar2742.github.io/nft-market-react/images/icons/cubes.svg" alt="" />
                                     Collection 12
                                 </span>
                             </div>
                         </div> */}
-                        <img src="./images/avatars.png" alt="" />
+                        <img src="https://anvar2742.github.io/nft-market-react/images/avatars.png" alt="" />
+                        <img src="https://anvar2742.github.io/nft-market-react/images/avatars-dark.png" alt="" className='avatars-dark' />
                     </div>
                 </div>
             </div>
