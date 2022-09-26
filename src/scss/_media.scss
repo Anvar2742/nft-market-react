@@ -1,0 +1,489 @@
+@use 'variables'as v;
+
+@media all and (max-width: '1500px') {
+    h1 {
+        font-size: 100px;
+    }
+
+
+    .offers {
+        .container {
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 30px;
+        }
+
+        &--nfts {
+            &-item {
+
+                img {
+                    // max-width: 80px;
+                    // max-height: 80px;
+                }
+            }
+        }
+
+        &--item {
+
+            &.dark {
+                justify-content: space-around;
+                grid-row: 2;
+                grid-column: span 4;
+                display: flex;
+                align-items: center;
+            }
+
+
+            &:first-child {
+                grid-column: span 2;
+            }
+
+            &:last-child {
+                grid-column: span 2;
+            }
+
+            .hand {
+                margin-bottom: 0;
+                max-width: 300px;
+            }
+        }
+
+        .pleat {
+            path {
+                background: v.$blue-dark-90;
+            }
+        }
+
+        &--swiper.swiper {
+            .swiper-button-prev {
+                left: -15px;
+                display: flex;
+            }
+
+            .swiper-button-next {
+                right: -15px;
+                display: flex;
+            }
+        }
+    }
+
+    .popular {
+        &--nfts {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .extrainfo {
+        &--started {
+            padding: 80px 0;
+            padding-left: 50px;
+
+            &-column {
+                max-width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: '1200px') {
+    .nav-top {
+        display: none;
+    }
+
+    .hero .small--nfts-item {
+        img {
+            width: 49px;
+            height: 49px;
+            border-radius: 10px;
+        }
+
+        .blured {
+            filter: blur(7px);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        span {
+            font-size: 11px;
+            margin-top: 0px;
+        }
+    }
+
+}
+
+
+@media all and (max-width: '992px') {
+
+    .swiper .swiper-button-prev,
+    .swiper .swiper-button-next {
+        width: 50px;
+        height: 50px;
+
+
+        &:after {
+            font-size: 12px;
+        }
+    }
+
+    .offers {
+        &--slide.swiper-slide-next * {
+            opacity: 1;
+        }
+
+        h2 {
+            max-width: unset;
+        }
+
+        &--item {
+
+            &:first-child,
+            &:last-child {
+                grid-column: span 4;
+            }
+
+            &.dark {
+                padding-bottom: 0;
+                margin-top: 21px;
+            }
+
+            &-info {
+                margin-top: -60px;
+            }
+
+            h3 {
+                max-width: unset;
+                font-size: 20px;
+            }
+        }
+
+        &--nfts-item {
+            margin-bottom: 30px;
+
+            img {
+                max-width: 240px;
+                max-height: 250px;
+            }
+        }
+    }
+
+    .footer--wrap {
+        flex-wrap: wrap;
+
+        &-column {
+            max-width: 100%;
+            min-height: 200px;
+        }
+    }
+
+
+
+    .extrainfo {
+        &--facts {
+            margin-top: 40px;
+        }
+
+        &--started {
+            flex-direction: column;
+
+            &-column {
+                max-width: 100%;
+
+                &:last-child {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        &--facts {
+            flex-wrap: wrap;
+
+            &-item {
+                width: 25%;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .footer {
+        .signup {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media all and (max-width: '768px') {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .latest {
+        padding-bottom: 50px;
+
+        * {
+            transition: .3s;
+        }
+
+        .container-fluid {
+            padding: 0 100px;
+        }
+
+        &--slide.swiper-slide * {
+            opacity: .6;
+        }
+
+        &--slide.swiper-slide-active * {
+            opacity: 1;
+        }
+    }
+
+    .nft--item-img {
+        height: 500px;
+    }
+
+    .offers {
+        &--slide.swiper-slide-next * {
+            opacity: .6;
+        }
+    }
+
+
+
+    .popular--nfts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media all and (max-width: '567px') {
+
+    .logo svg {
+        max-width: 110px;
+    }
+
+    .header {
+        &--btns {
+            .btn {
+                display: none;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .hero {
+        &--subtitle {
+            margin-top: 10px;
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+
+        .small--nfts-item {
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+            }
+
+            span {
+                font-size: 8px;
+                line-height: 1;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .search--bar {
+        width: 100%;
+        padding: 20px 15px;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+
+        select {
+            width: 80%;
+            border: none;
+            padding-left: 0;
+            padding-right: 20px;
+            margin: 20px 0;
+            margin-right: 10px;
+        }
+
+        input {
+            padding: 11px;
+            width: 100%;
+            border-bottom: 1px solid #bababa;
+        }
+
+    }
+
+    .hero--nfts {
+        &>div {
+            &:nth-child(3) {
+                left: 70%;
+            }
+
+            &:nth-child(5) {
+                left: 73%;
+            }
+
+            &:nth-child(4),
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    .offers {
+        &--item {
+            padding: 50px 20px;
+
+            &.dark {
+                flex-direction: column;
+                padding-bottom: 50px;
+            }
+
+            .hand {
+                margin-bottom: 60px;
+            }
+
+            h3 {
+                font-size: 16px;
+            }
+
+        }
+
+        &--nfts {
+            &-about {
+                margin-left: 0;
+            }
+
+            &-item {
+                display: block;
+                margin-bottom: 16px;
+
+                img {
+                    max-width: 100%;
+                    max-height: 150px;
+                }
+            }
+        }
+
+        &--swiper.swiper {
+            padding-right: 0;
+        }
+
+    }
+
+    .nft--item-img {
+        height: 400px;
+    }
+
+    .extrainfo {
+        &--facts-item {
+            width: 40%;
+            margin-bottom: 30px;
+        }
+
+        &--started {
+            padding: 40px 0;
+            padding-left: 0;
+
+            .pleat-gray {
+                max-width: 160px;
+                top: -31px;
+            }
+
+            h2 {
+                font-size: 27px;
+                line-height: 1.1;
+            }
+
+            &-btns {
+                display: block;
+
+                .btn {
+                    width: 100%;
+                    justify-content: center;
+
+                    &:first-child {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            &-column {
+
+                &:nth-child(2) {
+                    padding: 0 20px;
+                }
+
+                &:last-child {
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        &--facts {
+            padding: 50px 0;
+
+            &-item {
+                span {
+                    font-size: 24px;
+                    margin-top: 10px;
+                    line-height: 1;
+                }
+
+                svg {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .latest {
+        .container-fluid {
+            padding: 0 30px;
+        }
+
+        h2 {
+            margin-bottom: 42px;
+        }
+    }
+
+    .popular {
+        &--cats {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        &--nfts {
+            grid-template-columns: 1fr;
+        }
+
+        &--cat {
+            margin-bottom: 10px;
+        }
+    }
+
+    .footer {
+        &--menu-law.menu ul {
+            display: block;
+        }
+
+        &--wrap {
+            padding: 40px 0;
+
+            &-column {
+                padding: 20px;
+            }
+        }
+    }
+
+}

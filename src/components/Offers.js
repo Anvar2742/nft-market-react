@@ -1,19 +1,40 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
 import { memo } from 'react';
 import NftItem from './NftItem'
 
 import 'swiper/css';
 
 const Offers = ({switchFav, nftItems}) => {
+    const breakpoints = {
+        319: {
+          slidesPerView: 1
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        // 992: {
+        //   slidesPerView: 3,
+        // },
+        1200: {
+          slidesPerView: 1
+        },
+        1500: {
+          slidesPerView: 1,
+        },
+    }
+
     return (
         <div className='offers'>
-            <div className="container offers--container">
+            <div className="container grid">
                 <div className="offers--item">
                     <h2>Check out the hottest Sale offers</h2>
                     <Swiper
                         className='offers--swiper'
+                        modules={[Navigation]}
+                        navigation
                         spaceBetween={24}
-                        slidesPerView={1}
+                        breakpoints={breakpoints}
                     >
                         {
                             nftItems.map(nft => {

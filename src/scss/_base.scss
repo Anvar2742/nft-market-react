@@ -1,7 +1,5 @@
 @use './../assets/fonts/font';
-$base-family: 'Sora',
-sans-serif;
-$text-color: #060714;
+@use 'variables' as v;
 
 * {
     box-sizing: border-box;
@@ -12,8 +10,8 @@ $text-color: #060714;
 body {
     margin: 0;
     padding: 0;
-    font-family: $base-family;
-    color: $text-color;
+    font-family: v.$base-family;
+    color: v.$text-color;
     transition: .3s;
 }
 
@@ -21,6 +19,10 @@ body {
     max-width: 1520px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
 }
 
 .flex {

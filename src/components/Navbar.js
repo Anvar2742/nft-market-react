@@ -6,7 +6,7 @@ const Navbar = ({switchTheme}) => {
     return (
         <header className='header'>
             <div className="container flex align-center justify-between">
-                <a href="#">
+                <a href="#" className='logo'>
                     <svg width="213" height="34" viewBox="0 0 213 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path className='logo--letter' d="M51.5516 25.9999V6.15015H58.8661L66.3438 22.3835H67.2683L66.7245 22.8729V6.15015H70.912V25.9999H63.5431L56.0654 9.76661H55.1409L55.6847 9.27717V25.9999H51.5516Z" fill="#060714"/>
                         <path className='logo--letter' d="M75.5973 25.9999V6.15015H80.0567V25.9999H75.5973ZM79.5129 18.0056V14.3076H87.1809V18.0056H79.5129ZM79.5129 9.84819V6.15015H87.5072V9.84819H79.5129Z" fill="#060714"/>
