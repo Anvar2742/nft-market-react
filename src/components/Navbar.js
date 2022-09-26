@@ -2,7 +2,7 @@ import { memo } from 'react'
 import sun from './../assets/images/icons/sun.svg'
 // import logo from './assets/images/icons/logo.svg'
 
-const Navbar = ({switchTheme}) => {
+const Navbar = ({switchTheme, openMenu, closeMenu}) => {
     return (
         <header className='header'>
             <div className="container flex align-center justify-between">
@@ -22,31 +22,35 @@ const Navbar = ({switchTheme}) => {
                         <path d="M1.79346 0C2.63911 7.64992 9.12477 13.6001 17.0001 13.6001C24.8753 13.6001 31.361 7.64992 32.2067 0H21.2649C20.5894 1.69339 18.9344 2.88999 17.0001 2.88999C15.0657 2.88999 13.4108 1.69339 12.7352 0H1.79346Z" fill="#2A27C9"/>
                     </svg>
                 </a>
-                <nav className='nav nav-top menu'>
-                    <ul>
-                        <li><a href="#" className=''>Auctions</a></li>
-                        <li><a href="#" className=''>Roadmap</a></li>
-                        <li><a href="#" className=''>Discover</a></li>
-                        <li><a href="#" className=''>Contact</a></li>
-                    </ul>
-                </nav>
-                <div className='header--btns'>
-                    <button className='theme-switch' onClick={switchTheme}>
-                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48">
-                            <linearGradient id="PtY0UrX1qJDQb5CcMCRpOa" x1="6.221" x2="37.408" y1="5.221" y2="36.408" gradientUnits="userSpaceOnUse">
-                                <stop offset="0" stopColor="#fed100"/><stop offset="1" stopColor="#e36001"/>
-                            </linearGradient>
-                            <linearGradient id="PtY0UrX1qJDQb5CcMCRpOb" x1="29.373" x2="37.64" y1="20.668" y2="39.146" gradientUnits="userSpaceOnUse">
-                                <stop offset="0" stopColor="#fcfcfc"/>
-                                <stop offset="1" stopColor="#c3c9cd"/>
-                            </linearGradient>
-                            <path className='sun' fill="url(#PtY0UrX1qJDQb5CcMCRpOa)"/>
-                            <path className='cloud' fill="url(#PtY0UrX1qJDQb5CcMCRpOb)"/>
-                        </svg>
-                    </button>
-                    <button className='btn btn-border'>Contact</button>
-                    <button className='btn btn-filled'>My account</button>
+                <div className="header--wrap flex">
+                    <button className='btn header--close sm-element' onClick={closeMenu}>X</button>
+                    <nav className='nav nav-top menu'>
+                        <ul>
+                            <li><a href="#" className=''>Auctions</a></li>
+                            <li><a href="#" className=''>Roadmap</a></li>
+                            <li><a href="#" className=''>Discover</a></li>
+                            <li><a href="#" className=''>Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div className='header--btns'>
+                        <button className='theme-switch' onClick={switchTheme}>
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48">
+                                <linearGradient id="PtY0UrX1qJDQb5CcMCRpOa" x1="6.221" x2="37.408" y1="5.221" y2="36.408" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stopColor="#fed100"/><stop offset="1" stopColor="#e36001"/>
+                                </linearGradient>
+                                <linearGradient id="PtY0UrX1qJDQb5CcMCRpOb" x1="29.373" x2="37.64" y1="20.668" y2="39.146" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stopColor="#fcfcfc"/>
+                                    <stop offset="1" stopColor="#c3c9cd"/>
+                                </linearGradient>
+                                <path className='sun' fill="url(#PtY0UrX1qJDQb5CcMCRpOa)"/>
+                                <path className='cloud' fill="url(#PtY0UrX1qJDQb5CcMCRpOb)"/>
+                            </svg>
+                        </button>
+                        <button className='btn btn-border'>Contact</button>
+                        <button className='btn btn-filled'>My account</button>
+                    </div>
                 </div>
+                <button className='btn header--open sm-element' onClick={openMenu}>menu</button>
             </div>
         </header>
     )

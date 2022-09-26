@@ -8,7 +8,7 @@ const SlidingNfts = ({nftItems}) => {
                 <div 
                     className="sliding--nfts"
                 >
-                    <Marquee direction="rtl" speed={100} delay={5}>
+                    <Marquee direction="rtl" speed={10} delay={5}>
                         {
                             nftItems.map(nft => {
                                 return (

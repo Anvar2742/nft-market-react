@@ -5,8 +5,13 @@
 }
 
 .header {
+    background: #fff;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
     .container {
-        height: 117px;
+        height: 100%;
     }
 }
 
@@ -82,6 +87,10 @@
     box-shadow: inset -4px -4px 4px rgb(0 0 0 / 10%), inset 4px 4px 4px rgb(255 255 255 / 10%);
     transition: .3s;
 
+    &.sm-element {
+        display: none;
+    }
+
     &:active {
         box-shadow: inset 4px 4px 4px rgb(255 255 255 / 10%), inset 4px 4px 4px rgb(0 0 0 / 10%);
     }
@@ -138,18 +147,22 @@ h1 {
 }
 
 .hero {
-    text-align: center;
-    height: calc(100vh - 117px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-top: 80px;
+
+    .container {
+        text-align: center;
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     &--subtitle {
         margin-top: 50px;
         margin-bottom: 55px;
     }
 
-    &>*:not(.hero--nfts) {
+    & .container>*:not(.hero--nfts) {
         position: relative;
         z-index: 3;
     }
@@ -565,7 +578,7 @@ h3 {
         padding-right: 25%;
 
         .swiper-button-prev,
-        .swiper-button-next  {
+        .swiper-button-next {
             display: none;
         }
     }
@@ -996,6 +1009,10 @@ h3 {
 .dark-theme {
     background: #060714;
     color: v.$gray-10;
+
+    .header--wrap {
+        background: #060714;
+    }
 
     .logo {
         &--letter {

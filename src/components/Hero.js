@@ -5,8 +5,8 @@ const Hero = () => {
     const photos = data.photos.slice(0, 6)
 
     return (
-        <div className="container">
-            <div className="hero">
+        <div className="hero">
+            <div className="container">
                 <h1>
                     A new NFT <span>Experience</span>
                 </h1>

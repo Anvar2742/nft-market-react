@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 
 export const App = () => {
 	const [theme, setTheme] = useState(false)
+	const [menuBar, setMenuBar] = useState(false)
 	const [nftItems, setNftsItems] = useState(nfts.nftItems)
 	const [selectedCat, setSelectedCat] = useState("all")
 	const [popularItemCount, setPopularItemCount] = useState(6)
@@ -44,14 +45,28 @@ export const App = () => {
 		setPopularItemCount(prevPopularCount => prevPopularCount + prevPopularCount)
 	}
 
+	function openMenu() {
+		setMenuBar(true)
+	}
+
+	function closeMenu() {
+		setMenuBar(false)
+	}
+
 	useEffect(() => {
 		theme ? document.body.classList.add('dark-theme') : document.body.classList.remove('dark-theme')
 	}, [theme])
+
+	useEffect(() => {
+		menuBar ? document.body.classList.add('menu--active') : document.body.classList.remove('menu--active')
+	}, [menuBar])
 
 	return (
 		<>
 			<Navbar 
 				switchTheme={switchTheme}
+				openMenu={openMenu}
+				closeMenu={closeMenu}
 			/>
 			<Hero />
 			<Latest 
