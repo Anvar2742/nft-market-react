@@ -124,10 +124,14 @@
 
 
 @media all and (max-width: '992px') {
-    
 
-    .nav-top li:not(:last-child) {
-        margin-right: 20px;
+
+    .nav-top {
+        margin-right: 50px;
+
+        li:not(:last-child) {
+            margin-right: 20px;
+        }
     }
 
     .swiper .swiper-button-prev,
@@ -230,6 +234,12 @@
 
 @media all and (max-width: '768px') {
 
+    .dark-theme {
+        .header--wrap {
+            background-image: linear-gradient(to bottom, v.$blue-dark-90, #1f2134, #181a29, #11121e, v.$text-color);
+        }
+    }
+
     .btn {
         &.sm-element {
             display: block;
@@ -241,6 +251,7 @@
         border-bottom: 1px solid v.$blue-gray;
 
         &--btns {
+            width: 100%;
             display: flex;
             flex-direction: column-reverse;
             align-items: flex-start;
@@ -287,6 +298,8 @@
 
         .nav-top {
             display: block;
+            width: 100%;
+            margin-right: 0;
 
             ul {
                 display: block;

@@ -1016,10 +1016,6 @@ h3 {
         background: v.$text-color;
     }
 
-    .header--wrap {
-        background-image: linear-gradient(to bottom, v.$blue-dark-90, #1f2134, #181a29, #11121e, v.$text-color);
-    }
-
     .logo {
         &--letter {
             fill: #fff;
