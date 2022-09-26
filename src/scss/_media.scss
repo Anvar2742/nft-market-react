@@ -89,8 +89,16 @@
 }
 
 @media all and (max-width: '1200px') {
-    .nav-top {
-        display: none;
+    // .nav-top {
+    //     display: none;
+    // }
+
+    .header {
+        &--btns {
+            .btn {
+                display: none;
+            }
+        }
     }
 
     .hero .small--nfts-item {
@@ -116,6 +124,11 @@
 
 
 @media all and (max-width: '992px') {
+    
+
+    .nav-top li:not(:last-child) {
+        margin-right: 20px;
+    }
 
     .swiper .swiper-button-prev,
     .swiper .swiper-button-next {
@@ -225,6 +238,7 @@
 
     .header {
         height: 80px;
+        border-bottom: 1px solid v.$blue-gray;
 
         &--btns {
             display: flex;
@@ -369,6 +383,29 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+
+    .search--bar {
+        width: 100%;
+        padding: 20px 15px;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+
+        select {
+            width: 80%;
+            border: none;
+            padding-left: 0;
+            padding-right: 20px;
+            margin: 20px 0;
+            margin-right: 10px;
+        }
+
+        input {
+            padding: 11px;
+            width: 100%;
+            border-bottom: 1px solid #bababa;
+        }
+
+    }
 }
 
 @media all and (max-width: '567px') {
@@ -407,29 +444,6 @@
                 white-space: nowrap;
             }
         }
-    }
-
-    .search--bar {
-        width: 100%;
-        padding: 20px 15px;
-        padding-bottom: 10px;
-        flex-wrap: wrap;
-
-        select {
-            width: 80%;
-            border: none;
-            padding-left: 0;
-            padding-right: 20px;
-            margin: 20px 0;
-            margin-right: 10px;
-        }
-
-        input {
-            padding: 11px;
-            width: 100%;
-            border-bottom: 1px solid #bababa;
-        }
-
     }
 
     .hero--nfts {

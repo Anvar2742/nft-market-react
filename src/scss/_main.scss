@@ -10,7 +10,6 @@
     position: fixed;
     width: 100%;
     z-index: 5;
-    border-bottom: 1px solid v.$blue-gray;
 
     .container {
         height: 100%;
@@ -52,6 +51,7 @@
 }
 
 .nav-top {
+    margin-right: 100px;
     ul {
         margin: 0;
     }
