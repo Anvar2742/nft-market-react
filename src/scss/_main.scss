@@ -10,6 +10,8 @@
     position: fixed;
     width: 100%;
     z-index: 5;
+    border-bottom: 1px solid v.$blue-gray;
+
     .container {
         height: 100%;
     }
@@ -536,7 +538,7 @@ h3 {
 
         &.dark {
             border: 1px solid v.$blue-dark-90;
-            background: linear-gradient(188.08deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 93.79%), #060714;
+            background: linear-gradient(188.08deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 93.79%), v.$text-color;
             border-top-left-radius: 0;
             color: #fff;
 
@@ -1007,11 +1009,15 @@ h3 {
 // /**********************
 
 .dark-theme {
-    background: #060714;
+    background: v.$text-color;
     color: v.$gray-10;
 
+    .header {
+        background: v.$text-color;
+    }
+
     .header--wrap {
-        background: #060714;
+        background-image: linear-gradient(to bottom, v.$blue-dark-90, #1f2134, #181a29, #11121e, v.$text-color);
     }
 
     .logo {
@@ -1076,7 +1082,7 @@ h3 {
         border-color: v.$blue-dark-90;
 
         &.dark {
-            background-image: linear-gradient(to bottom, v.$blue-dark-90, #1f2134, #181a29, #11121e, #060714);
+            background-image: linear-gradient(to bottom, v.$blue-dark-90, #1f2134, #181a29, #11121e, v.$text-color);
         }
 
         .pleat {
@@ -1096,7 +1102,7 @@ h3 {
     }
 
     .extrainfo--started {
-        background-image: linear-gradient(to bottom, v.$blue-dark-90, #1f2134, #181a29, #11121e, #060714);
+        background-image: linear-gradient(to bottom, v.$blue-dark-90, #1f2134, #181a29, #11121e, v.$text-color);
         border-color: v.$blue-dark-90;
 
         img {
